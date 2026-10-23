@@ -7,5 +7,4 @@ variable "aws_region" {
 variable "client_bucket_name" {
   description = "Rock of Ages client host bucket (must be globally unique)"
   type        = string
-  default     = "your-unique-client-bucket-name" 
-}
+  default     = "rock-of-ages-image-storing-bucket-mr"
